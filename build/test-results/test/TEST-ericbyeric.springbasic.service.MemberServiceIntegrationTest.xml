@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ericbyeric.springbasic.service.MemberServiceIntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-19T12:14:59" hostname="userui-MacBookPro.local" time="0.039">
+  <properties/>
+  <testcase name="중복_회원_예외()" classname="ericbyeric.springbasic.service.MemberServiceIntegrationTest" time="0.039"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

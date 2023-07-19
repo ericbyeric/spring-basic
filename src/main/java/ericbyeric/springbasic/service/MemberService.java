@@ -3,10 +3,12 @@ package ericbyeric.springbasic.service;
 import ericbyeric.springbasic.domain.Member;
 import ericbyeric.springbasic.repository.MemberRepository;
 import ericbyeric.springbasic.repository.MemoryMemberRepository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public class MemberService {
 //    private final MemoryMemberRepository memberRepository = new MemoryMemberRepository();
     private final MemberRepository memberRepository;
